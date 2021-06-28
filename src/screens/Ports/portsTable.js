@@ -172,7 +172,7 @@ export default function PortsTable() {
 
   useEffect(() => {
     getUoms();
-  }, [])
+  })
 
 
 
