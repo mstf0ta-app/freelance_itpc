@@ -1,0 +1,35 @@
+.activeStatus {
+  font-size: small;
+  color: #52c41a;
+  padding: 0px 8px;
+  font-weight: 600;
+  border: 1px solid #52c41a;
+}
+
+.inactiveStatus {
+  font-size: small;
+  color: #f5222d;
+  padding: 0px 8px;
+  font-weight: 600;
+  border: 1px solid #f5222d;
+}
+
+.deleteButton {
+  background-color: #f5222d;
+  border: #f5222d;
+}
+.deleteButton:hover {
+  background-color: #da0a15;
+  border: #f5222d;
+}
+
+.editButton {
+  background-color: #fadb14;
+  border: #fadb14;
+  color: black;
+}
+.editButton:hover {
+  background-color: #d6ba05;
+  border: #fadb14;
+  color: black;
+}

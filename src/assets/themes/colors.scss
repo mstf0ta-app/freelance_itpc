@@ -1,0 +1,46 @@
+$base  : #0596FF;
+$primary : #004b82;
+$clear : #fff;
+$background : #001529;
+$success:#52c41a;
+$failed:#f5222d;
+$edit:#fadb14;
+
+
+.activeStatus  {
+   
+   font-size: small;
+   color: $success;
+   padding: 0px 8px;
+   font-weight: 600;
+   border: 1px solid $success;
+}
+.inactiveStatus  {
+   
+   font-size: small;
+   color: $failed;
+   padding: 0px 8px;
+   font-weight: 600;
+   border: 1px solid $failed;
+}
+
+.deleteButton  {
+    background-color: $failed; 
+    border:$failed;
+    &:hover{
+        background-color: darken($failed,10) ; 
+        border:$failed;
+    }
+}
+
+.editButton {
+    background-color: $edit; 
+    border:$edit;
+    color: black;
+    &:hover{
+        background-color: darken($edit,10) ; 
+        border:$edit;
+        color: black;
+    }
+}
+

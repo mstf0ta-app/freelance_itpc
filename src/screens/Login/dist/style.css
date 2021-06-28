@@ -1,0 +1,54 @@
+.loginContainer {
+  background-color: #0596FF;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.loginMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.LoginImageContainer {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginVector {
+  height: 60vh;
+  margin-top: 100px;
+}
+
+.loginUserInput {
+  background-color: #004b82;
+  color: #fff;
+  border-width: 0;
+  height: 40px;
+}
+
+.loginPasswordInput {
+  background-color: #004b82;
+  border-width: 0;
+  height: 40px;
+}
+
+.loginPasswordInput input {
+  background-color: #004b82;
+  color: #fff;
+  border-width: 0;
+}
+
+.loginButton {
+  background-color: #fff;
+  width: 150px;
+  height: 40px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
